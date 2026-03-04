@@ -4,6 +4,10 @@ function doSomething() {
   console.log("My name is aman danish");
 }
 
+function handleDblClick(){
+    console.log('You double clicked')
+}
+
 function ParaInfo() {
   console.log("you clicked the paragraph");
 }
@@ -23,6 +27,7 @@ function Button() {
         ullam assumenda libero optio, recusandae sequi modi a autem eius
         exercitationem magnam.
       </p>
+      <p onDoubleClick={handleDblClick}>You can do any thing and every things</p>
     </div>
   );
 }
